@@ -141,16 +141,18 @@ function Home() {
    <Box  text={<div className="fomt">
         <h1 style={{justifyContent:'center',color:'orange',marginLeft:'0%'}}>ece & rai</h1>
       </div>} />
+      <div style={{zIndex:'-1',transform:'translateY(-10px)'}}>
      <Box img={dem} />
-      <Box text={<div className="fomt">
-        <h1>we present you</h1>
+     </div>
+      <Box text={<div style={{transform:'translateY(-60px)'}} className="fomt">
+        <h1 >we present you</h1>
       
       </div>}/>
       <Box  text={<div className="fomt">
         <h2 style={{color:'lightgreen'}}>prominence 2024</h2>
       </div>} />
       <Box  text={<div className="boxx">
-       <h2 className="fomt" style={{color:'violet'}}>our legacy</h2>
+       <h2 className="fomt" style={{color:'rgb(188, 1, 180)'}}>our legacy</h2>
        <p style={{fontFamily:'fomt1',fontSize:'20px'}}>Prominence is an annual techno-cultural fest organised by the Department of Electronics and Communication Engineering. Since its inception in 20xx,the fest has aimed to showcase the latest trends and developments in Electronics, Communication, Robotics and Artificial Intelligence while promoting innovation and collaboration among students, faculty and industry partners</p>
       </div>} />
       <div >

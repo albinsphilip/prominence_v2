@@ -7,7 +7,7 @@ import { useState,useEffect } from 'react'
 import './App.css';
 
 function App() {
-  
+
   const [nav, setNav] = useState(false);
   const [isShown, setIsShown] = useState(false);
 

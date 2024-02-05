@@ -78,8 +78,9 @@ function About() {
 
     return <div className="back"> 
     <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
-      <Box text={<h1 className="fomt" style={{marginTop:'100px',alignItems:'center' ,color:'lightgreen',marginBottom:'100px'}}>about rit</h1>} />
-      <Box1 img={p} h='150px' />
+      <Box text={<h1 className="fomt" style={{marginTop:'100px',alignItems:'center' ,color:'rgb(57, 216, 3)',marginBottom:'100px',      textShadow:' 0 0 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25)'
+}}>about rit</h1>} />
+      <Box img={p} h='150px' />
       <Box text={<div>
         <p className="boxx1" style={{fontFamily: 'fomt2',fontSize:'25px'}}> Rajiv Gandhi Institute of Technology is one of the most prestigious technical institutes in Kerala. The college offers undergraduate, postgraduate and research studies in Engineering to around 2000 students. It is one of the nine Government of Kerala. The college has a highly qualified and dedicated faculty of around 200 members and boosts of state-of-the-art infrastructure. It is accredited by the National Board of Accreditation and is funded under the Technical Education Quality Improvement Programme.</p>
       </div>} />
